@@ -126,3 +126,23 @@
 // let message = `My favourite actor is ${fullName.toUpperCase()} & say something about your actor.`;
 // message += "his best show is silicon Valley";
 // console.log(message)
+
+//type conversion
+
+let money = "59";
+//Before conversion
+console.log(typeof money);
+//convert string to money 3 ways:
+// money = parseInt(money)
+// money = +money;
+money = Number(money);
+console.log(typeof money);
+
+//converting number to string
+money = money.toString();
+console.log(typeof money);
+
+//convert string to decimal
+money = 50.88;
+money = parseFloat(money)
+console.log(typeof money)
