@@ -29,10 +29,42 @@
 // console.log(myLetter)
 
 //challenges
-let favSingers = ['Ayush', 'Taylor', '2pac'];
-console.log(favSingers[0]);
-let favNumbers = [5, 6, 7, 8];
-let mixedArr = ["Ayush", ["Duck", "Genos"], 123, true];
-mixedArr.forEach(el => {
-  console.log(el);
-});
+// let favSingers = ['Ayush', 'Taylor', '2pac'];
+// console.log(favSingers[0]);
+// let favNumbers = [5, 6, 7, 8];
+// let mixedArr = ["Ayush", ["Duck", "Genos"], 123, true];
+// mixedArr.forEach(el => {
+//   console.log(el);
+// });
+
+//Pushing items in the array
+
+// // const fruits = [
+// //   "Apple", "Pomegranate", "Mango", "Strawberry", "PineApple"
+// ]
+// console.log(fruits.length)
+// fruits.push("Banana");
+// console.log(fruits)
+// console.log(fruits.length);
+// fruits.pop();
+// console.log(fruits);
+// fruits.shift();
+// console.log(fruits);
+// fruits.unshift('Orange');
+// console.log(fruits)
+
+// const newFruits = ["apples", "pomegranate", "mango"];
+// const moreFruits = ["strawberries", "pineapple", "grape"];
+// const total = newFruits.concat(moreFruits);
+// console.log(total)
+
+// const pl = ['Javascript', 'Golang', 'Python', 'PHP'];
+// const numbers = [3, 4, 5, 6, 1, 2];
+// // console.log(pl.includes('Dart'));
+// // console.log(pl.join('-'));
+// // console.log(pl.reverse());
+// // console.log(pl.slice(0, 2));
+// console.log(numbers.sort());
+
+//OBJECTS:
+
