@@ -66,5 +66,45 @@
 // // console.log(pl.slice(0, 2));
 // console.log(numbers.sort());
 
-//OBJECTS:
+//OBJECTS:{label:value}
+// const person = {
+//   name: "Ayush Pakhrin",
+//   age: 21,
+//   location: ['Planet', 'Earth'],
+//   isProgrammer: true
+// }
+// // console.log(person);
+// //accessing items from our object
+// // console.log(person.name)
+// // console.log(person.age)
+// // console.log(person.location)
+// // console.log(person.isProgrammer)
+// console.log(person['location']);
+// const items = {
+//   10: 'ten'
+// }
+// console.log(items['10']);
+
+// const person = {
+//   name: "Ayush"
+// }
+// person.age = 10;
+// console.log(person);
+// //deleting from object
+// delete person.age;
+// console.log(person)
+
+//challenges
+
+// const car = {
+//   type: "SUV",
+//   model: "Mercedes",
+//   color:"Black"
+// }
+// console.log(car);
+// console.log(typeof car);
+// car.type = "Toyota";
+// console.log(car);
+// car.wheels = "OffRoad";
+// console.log(car);
 
