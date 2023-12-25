@@ -75,11 +75,51 @@
 
 //challenges for callback function
 
-function showCallFunc(fn) {
-  const a = 10;
-  fn(a);
+// function showCallFunc(fn) {
+//   const a = 10;
+//   fn(a);
+// }
+// function fn(b) {
+//   console.log(b);
+// }
+// showCallFunc(fn)
+
+//scopes
+
+//global  scope
+// let name = "Ayu";//declared and can be accessed by any function or method
+// console.log(name);
+// function sayHello(name) {
+//   console.log("Hello " + name);
+// }
+// sayHello(name);
+
+// //local scope:declared within a block of code and can only be accessed by the function.
+// function hello() {
+//   let num1 = 19;//local variable
+//   console.log(num1)
+// }
+// hello();
+// console.log(num1)//gives error cause it is declared inside a function
+
+//Methods
+
+// function greet() {
+//   return `Hello,My name is ${person.name} & I am ${person.age} years old.`
+// }
+
+// const person = {
+//   name: 'Ayush',
+//   age: 21,
+//   greet
+// }
+// console.log(person.greet())
+//methods in javascript
+const person = {
+  name: "Ayush",
+  age: 21,
+  greet: function () {
+    return `Hello,My name is ${person.name} & I am ${person.age} years old.`;
+  }
 }
-function fn(b) {
-  console.log(b);
-}
-showCallFunc(fn)
+console.log(person.greet());
