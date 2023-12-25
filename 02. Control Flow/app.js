@@ -108,3 +108,68 @@
 // }
 
 //for loops
+//Dry->Don't repeat yourself
+
+//psuedo code
+//for(initail expression;condition;incrementordecrementOperation){//code};
+// for (i = 0; i < 5; i++) {
+//   console.log("Outer Loop", i);
+//   //nested loop
+//   for (j = 0; j < 5; j++) {
+//     console.log("Inner Loop", j)
+//   }
+// }
+
+//challeges
+// for (let i = 1; i <= 1000; i++) {
+//   console.log("Ayush", i)
+// }
+
+//while
+// whille(condition){//code};
+// let i = 0
+// while (i <= 5) {
+//   console.log(i);
+//   i++;
+// }
+
+//challenges
+// let i = 10;
+// while (i <= 100) {
+//   console.log("Ayush", i);
+//   i++;
+// }
+
+//do-while
+// let i = 1;
+// do {
+//   console.log(i);
+//   i++
+// } while (i <= 15)
+
+//challenges
+
+// let i = 20;
+// do {
+//   console.log("Ayush", i);
+//   i++
+// }while(i<=400)
+
+//logical operator:&&,||,!
+
+// const a = true;
+// const b = false;
+// const c = 4;
+// console.log(a && b);
+// console.log(a || b);
+// console.log(c > 2 && c < 2);
+// console.log(!a);
+
+// let password = "LuffyZoro";
+// if (password.length >= 8 && password.includes('L')) {
+//   console.log("Valid Password");
+// }
+// else {
+//   console.log("Invalid Password");
+// }
+
