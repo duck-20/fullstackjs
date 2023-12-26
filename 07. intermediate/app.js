@@ -101,10 +101,40 @@
 // console.log(lib.sum(5, 5));
 // console.log(lib.mult(5, 5));
 
-const getPersionES6 = (name, age, height) => {
-  return {
-    name, age, height
-  }
-}
-let Ayush = getPersionES6("Ayush", 21, 189)
-console.log(Ayush)
+// const getPersionES6 = (name, age, height) => {
+//   return {
+//     name, age, height
+//   }
+// }
+// let Ayush = getPersionES6("Ayush", 21, 189)
+// console.log(Ayush)
+
+//Default Parameters
+// let greet = (name = "Strangers") => {
+//   return `Welcome ${name}`
+// }
+// console.log(greet("Ayush"));//with arguement
+// console.log(greet());//without arguement
+
+// const rating = (rate = 0) => {
+//   if (rate === 5) {
+//     console.log("High Rating :)");
+//   }
+//   else if (rate === 0) {
+//     console.log("Low Rating :(");
+//   }
+//   else {
+//     console.log("Average Rating :|");
+//   }
+// }
+// rating()
+
+//challenges
+
+// let multiply = (a = 1, b = 1) => {
+//   return a * b
+// };
+// console.log(multiply(5, 5));
+// console.log(multiply(5));
+// console.log(multiply());
+
