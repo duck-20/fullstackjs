@@ -208,9 +208,34 @@
 // console.log(clone2)
 
 
+//Rest operator->allows to create variadic functionn so it can accepet indefinite number of parameters
+//it simply converts the parameters value into arrays
+// const user = (name,...userData) => {
+//   console.log(name,userData)
+// }
+// user("Ayush", 21, "Programming", "Football");
 
+// const person = (firstName, Lastname, ...hobbies) => {
+//   console.log("First Name:", firstName);
+//   console.log("Last Name:", Lastname);
+//   console.log("Hobbies:", hobbies);
+// }
+// person("Ayush", "Pakhrin", "Programming", "Learning", "Games")
 
+//challenges
+// let unlimited = (...wow) => {
+//   console.log(wow)
+// }
+// unlimited("What the hell!", "How is this even possible ", "My man woaahhhhh!");
 
+// let add = (...num) => {
+//   let total = 0;
+//   num.forEach(el => { total += el });
+//   return total;
+// }
+// console.log(add(1, 2, 3, 4, 5, 5))
+
+//
 
 
 
