@@ -33,3 +33,32 @@
 // const colors = ['red', 'green', 'blue', 'yellow', 'orange'];
 // const [color1, color2, color3, ...color4] = colors;
 // console.log(color1,color2,color3,color4);
+
+
+//object destructing->order doesn`t matter but name does i.e properties
+// const student = { name: "Ayush", position: "First", rollno: 2 };
+// // console.log(student)
+// const { name, position, rollno } = student;
+// console.log(name, position, rollno);
+
+//challenges
+const person = {
+  name: "John Doe",
+  age: 30,
+  gender: "Male",
+  country:"USA"
+}
+const { name, age, country } = person;
+console.log(name,age,country)
+
+
+
+
+
+
+
+
+
+
+
+
