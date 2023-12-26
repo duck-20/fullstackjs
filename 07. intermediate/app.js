@@ -29,4 +29,39 @@
 // const lastName = "Pakhrin";
 // console.log(`My name is ${firstName} ${lastName}.`);
 
-//Ar
+//Arrow function
+// function greet(name) {
+//   return `Hello ${name}!`;
+// }
+// console.log(greet("Ayush"));
+
+// let greet = (name) => {
+//   console.log(`Hello ${name}!`);
+// }
+// greet("Ayush")
+
+// hello = name => `Hello ${name}!`;
+// console.log(hello("Ayush"));
+
+// function double(num) {
+//   return num * 2;
+// }
+// console.log(double(5));
+// const double = num => num * 2;
+// console.log(double(8))
+
+setTimeout(() => {
+  console.log("Hello");
+  setTimeout(() => {
+    console.log("Hey");
+    setTimeout(() => {
+      console.log("Namaste");
+      setTimeout(() => {
+        console.log("Hi");
+        setTimeout(() => {
+          console.log("Bonjour")
+        }, 2000)
+      }, 2000)
+    }, 2000)
+  }, 2000)
+}, 2000)
