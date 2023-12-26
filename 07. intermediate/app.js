@@ -50,18 +50,61 @@
 // const double = num => num * 2;
 // console.log(double(8))
 
-setTimeout(() => {
-  console.log("Hello");
-  setTimeout(() => {
-    console.log("Hey");
-    setTimeout(() => {
-      console.log("Namaste");
-      setTimeout(() => {
-        console.log("Hi");
-        setTimeout(() => {
-          console.log("Bonjour")
-        }, 2000)
-      }, 2000)
-    }, 2000)
-  }, 2000)
-}, 2000)
+// setTimeout(() => {
+//   console.log("Hello");
+//   setTimeout(() => {
+//     console.log("Hey");
+//     setTimeout(() => {
+//       console.log("Namaste");
+//       setTimeout(() => {
+//         console.log("Hi");
+//         setTimeout(() => {
+//           console.log("Bonjour")
+//         }, 2000)
+//       }, 2000)
+//     }, 2000)
+//   }, 2000)
+// }, 2000)
+
+//enchanced object literals
+// function user(name, age, work) {
+//   return {
+//     name,
+//     age,
+//     work,
+//     greet: () => {
+//       console.log(`Welcome ${name}!`);
+//     }
+//   }
+// }
+// let Ayush = user("Ayush", 21, "Programmer")
+// let Alex = user("Alex", 22, "Designer")
+// console.log(Ayush);
+// Ayush.greet();
+// console.log(Alex)
+
+//challenges
+
+// let a = 1;
+// let b = 2;
+// let c = 3;
+
+// let obj = {
+//   a, b, c
+// }
+// console.log(obj)
+
+// const lib = {
+//   sum: (a, b) => a + b,
+//   mult: (a, b) => a * b,
+// }
+// console.log(lib.sum(5, 5));
+// console.log(lib.mult(5, 5));
+
+const getPersionES6 = (name, age, height) => {
+  return {
+    name, age, height
+  }
+}
+let Ayush = getPersionES6("Ayush", 21, 189)
+console.log(Ayush)
