@@ -138,3 +138,87 @@
 // console.log(multiply(5));
 // console.log(multiply());
 
+// const student = {
+
+// }
+// const studentData = (id, name, age, address, major) => {
+//   return {
+//     id,
+//     name,
+//     age,
+//     address,
+//     major
+//   }
+// }
+// const Ayush = studentData(1, "Ayush", 21, { "city": "Kathmandu", "Ward no.": 6 }, "BCA");
+// console.log(Ayush)
+
+//spread operator->Allows to convert array into each individual elements. Also used to convert a shallow copies of objects
+// function giveMe4(a, b, c, d) {
+//   console.log("a:", a);
+//   console.log("b:", b);
+//   console.log("c:", c);
+//   console.log("d:", d);
+// }
+// const colors = ['red', 'green', 'blue', 'teal'];
+// giveMe4(...colors);
+
+// const strNums = ['one', 'two', 'three'];
+// const moreStrNums = ['four', 'five', 'six'];
+// const concat = [...strNums, ...moreStrNums]
+// console.log(concat)
+// let people = ['Ayush', 'Jeff', 'Duck'];
+// const add = ['kumar', 'hero', ...people];
+// console.log(add);
+
+// let names = ['Ayush', 'Duck', 'What '];
+// let addNames = ['Ajay', 'mat'];
+// let concat = [...addNames, ...names];
+// console.log(concat)
+
+//spread operator in objects
+// const obj1 = { x: 1, y: 2 };
+// const obj2 = { z: 3 };
+// const totalObj = { ...obj1, ...obj2 };
+// console.log(totalObj);
+
+// let person = {
+//   name: "Ayush",
+//   age: 21,
+//   gender: "Male"
+// }
+// const clone = {
+//   ...person, work: "Programmer", location: "idk"
+// }
+// console.log(clone)
+
+//challenges
+
+// let arr = [1, 2, 3];
+// let arr2 = [4, 5];
+
+// const user = {
+//   name: "Jen",
+//   age: 22,
+// }
+
+// const clone = [...arr, ...arr2];
+// console.log(clone);
+// const clone2 = { ...user };
+// console.log(clone2)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
