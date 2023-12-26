@@ -114,81 +114,105 @@
 // console.log(singer)
 
 //crazines destructing
-const data = {
-  user: {
-    id: 123,
-    name: "John Doe",
-    age: 30,
-    email: "john.doe@example.com",
-    address: {
-      city: "New York",
-      country: "USA",
-    },
-    hobbies: ["Reading", "Painting", "Cooking"],
-    scores: {
-      math: 95,
-      science: 88,
-      history: 75,
-    },
-  },
-  products: [
-    { id: 1, name: "Laptop", price: 1000 },
-    { id: 2, name: "Phone", price: 800 },
-    { id: 3, name: "Tablet", price: 500 },
-  ],
-  settings: {
-    darkMode: true,
-    notifications: {
-      email: true,
-      sms: false,
-      push: true,
-    },
-    language: "English",
-  },
-};
+// const data = {
+//   user: {
+//     id: 123,
+//     name: "John Doe",
+//     age: 30,
+//     email: "john.doe@example.com",
+//     address: {
+//       city: "New York",
+//       country: "USA",
+//     },
+//     hobbies: ["Reading", "Painting", "Cooking"],
+//     scores: {
+//       math: 95,
+//       science: 88,
+//       history: 75,
+//     },
+//   },
+//   products: [
+//     { id: 1, name: "Laptop", price: 1000 },
+//     { id: 2, name: "Phone", price: 800 },
+//     { id: 3, name: "Tablet", price: 500 },
+//   ],
+//   settings: {
+//     darkMode: true,
+//     notifications: {
+//       email: true,
+//       sms: false,
+//       push: true,
+//     },
+//     language: "English",
+//   },
+// };
 
-//destructing
-const {
-  user: {
-    name, age, address: { city, country },
-    hobbies,
-    scores: { math, science, history },
-    email,
-  },
-  products: [product1, product2, product3],
-  settings: {
-    darkMode,
-    notifications: {
-      email: emailNotification,
-      sms: smsNotification,
-      push: pushNotification
-    },
-    language,
-  } } = data;
-console.log(`Name: ${name}`);
-console.log(`Age: ${age}`);
-console.log(`Address: ${city}, ${country}`);
-console.log(`Hobbies: ${hobbies.join(", ")}`);
-console.log(`Math Score: ${math}`);
-console.log(`Science Score: ${science}`);
-console.log(`History Score: ${history}`);
-console.log(`Product 1: ${product1.name} - $${product1.price}`);
-console.log(`Product 2: ${product2.name} - $${product2.price}`);
-console.log(`Product 3: ${product3.name} - $${product3.price}`);
-console.log(`Dark Mode: ${darkMode}`);
-console.log(`Email Notifications: ${emailNotifications}`);
-console.log(`SMS Notifications: ${smsNotifications}`);
-console.log(`Push Notifications: ${pushNotifications}`);
-console.log(`Language: ${language}`);
-
-
+// //destructing
+// const {
+//   user: {
+//     name, age, address: { city, country },
+//     hobbies,
+//     scores: { math, science, history },
+//     email,
+//   },
+//   products: [product1, product2, product3],
+//   settings: {
+//     darkMode,
+//     notifications: {
+//       email: emailNotification,
+//       sms: smsNotification,
+//       push: pushNotification
+//     },
+//     language,
+//   } } = data;
+// console.log(`Name: ${name}`);
+// console.log(`Age: ${age}`);
+// console.log(`Address: ${city}, ${country}`);
+// console.log(`Hobbies: ${hobbies.join(", ")}`);
+// console.log(`Math Score: ${math}`);
+// console.log(`Science Score: ${science}`);
+// console.log(`History Score: ${history}`);
+// console.log(`Product 1: ${product1.name} - $${product1.price}`);
+// console.log(`Product 2: ${product2.name} - $${product2.price}`);
+// console.log(`Product 3: ${product3.name} - $${product3.price}`);
+// console.log(`Dark Mode: ${darkMode}`);
+// console.log(`Email Notifications: ${emailNotifications}`);
+// console.log(`SMS Notifications: ${smsNotifications}`);
+// console.log(`Push Notifications: ${pushNotifications}`);
+// console.log(`Language: ${language}`);
 
 
+// const user = {
+//   "userId": 1,
+//   "id": 1,
+//   "title": "delectus aut autem",
+//   "completed": false
+// }
+// const { userId, id, title, completed } = user;
+// console.log(userId)
 
 
-
-
-
+// const product = {
+//   id: 1,
+//   title: 'iPhone 9',
+//   description: 'An apple mobile which is nothing like apple',
+//   price: 549,
+//   discountPercentage: 12.96,
+//   rating: 4.69,
+//   stock: 94,
+//   brand: 'Apple',
+//   category: 'smartphones',
+//   thumbnail: 'https://i.dummyjson.com/data/products/1/thumbnail.jpg',
+//   images: [
+//     'https://i.dummyjson.com/data/products/1/1.jpg',
+//     'https://i.dummyjson.com/data/products/1/2.jpg',
+//     'https://i.dummyjson.com/data/products/1/3.jpg',
+//     'https://i.dummyjson.com/data/products/1/4.jpg',
+//     'https://i.dummyjson.com/data/products/1/thumbnail.jpg'
+//   ]
+// }
+// const { id, title, description, price, discountPercentage, rating, stock, images: [a, b, c, d, e] } = product;
+// console.log(a)
 
 
 
