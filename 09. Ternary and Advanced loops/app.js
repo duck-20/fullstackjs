@@ -261,3 +261,112 @@
 // console.log(product);
 
 //map
+
+// const map = new Map();
+// const keyOne = "String";
+// const keyTwo = {};
+// const keyThree = [1, 2, 3];
+// map.set(keyOne, "value of key one");
+// map.set(keyTwo, "value of key Two");
+// map.set(keyThree, "value of key three");
+// // console.log(map)
+
+// // console.log(map.keys());
+// // console.log(map.values());
+// // console.log(map.delete(keyTwo));
+// // console.log(map.keys());
+// // console.log(map.values());
+// // console.log(map.size)
+
+// // for (let [key, value] of map) {
+// //   console.log(`${key}:${value}`)
+// // }
+// for (let value of map.values()) {
+//   console.log(value);
+// }
+
+//challenges
+// const num = new Map();
+// const key1 = "a";
+// const key2 = "b";
+// const key3 = "c";
+// num.set(key1, 1)
+// num.set(key2, 2)
+// num.set(key3, 3)
+// console.log(num);
+// console.log(num.get("a"));
+// console.log(num.size);
+// console.log(num.delete(key2));
+// console.log(num);
+// console.log(num.size);
+
+
+//set->removes duplicate data
+
+// const mySet = new Set();
+// mySet.add("apple")
+// mySet.add("banana")
+// mySet.add("orange")
+// mySet.add("orange")
+// mySet.add("orange")
+// // console.log(mySet.has("grape"))
+// // console.log(mySet)
+// // mySet.delete("apple");
+// // console.log(mySet);
+// // mySet.clear();
+// // console.log(mySet)
+
+// for (let item of mySet) {
+//   console.log(item);
+// }
+
+
+
+//challenges
+// let letters = new Set();
+// letters.add("a")
+// letters.add("b")
+// letters.add("c")
+
+// console.log(letters);
+// for (let value of letters) {
+//   console.log(value);
+// }
+
+//
+// symbols
+// const mySymbol = Symbol("My custom symbol");
+// console.log(mySymbol)
+// console.log(typeof mySymbol);
+// //value of symbol can`t be changed
+
+// //comparing symbol
+// const mySymbol1 = Symbol("name");
+// const mySymbol2 = Symbol("name");;
+// console.log(mySymbol2 === mySymbol1)
+
+// const obj = {};
+// obj[mySymbol1] = 1;
+// obj[mySymbol2] = 2;
+// console.log(obj);
+
+// const symbol1 = Symbol("name");
+// const symbol2 = Symbol("name");
+// const ayush = {};
+// ayush.age = 21;
+// ayush.gender = "male";
+// ayush.Symbol1 = 'John';
+// console.log(ayush)
+
+//challenges
+const hell = Symbol('foo');
+console.log(typeof hell);
+const hello ={
+  name:"Ayush Pakhrin"};
+hello[hell] = "Moshi";
+console.log(hello)
+
+
+for (let i in hello) {
+  console.log(i)
+}
